@@ -1,6 +1,5 @@
 #### APPLICATIONS ####
 
-
 #installing google-chrome
 echo "Installing chrome";
 brew cask install google-chrome
