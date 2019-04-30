@@ -26,3 +26,6 @@ sh ./scripts/vimPlugins.sh
 
 echo "APPLICATIONS";
 sh ./scripts/applications.sh
+
+echo "install intellij and java11"
+sh ./scripts/intellijAndJava.sh
