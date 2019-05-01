@@ -28,3 +28,6 @@ brew tap heroku/brew && brew install heroku
 
 echo "installing autojump"
 brew install autojump
+
+echo "installing scala"
+brew install scala
