@@ -6,26 +6,28 @@ sudo -v
 # Keep-alive: update existing `sudo` time stamp until the script has finished.
 while true; do sudo -nv true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
-echo "HomeBrew Install"
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/luckyganesh/mac-setup/master/scripts/homebrew.sh)"
+#! /bin/bash
 
-echo "core_utils Install"
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/luckyganesh/mac-setup/master/scripts/coreUtils.sh)"
+# Check for Homebrew,
+# Install if we don't have it
+if test ! $(which brew); then
+  echo "Installing homebrew..."
+  sh -c "$(curl -fsSL https://raw.githubusercontent.com/luckyganesh/mac-setup/master/setup.sh)"
+fi
 
-echo "node_modules install"
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/luckyganesh/mac-setup/master/scripts/nodeModules.sh)"
+#Make sure that your sudo config is yours.
+sudo chown -R $(whoami) .config
 
-echo "install zsh_features"
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/luckyganesh/mac-setup/master/scripts/zshFeatures.sh)"
+# Make sure we're using the latest Homebrew.
+brew update
 
-echo "Vim upgrade"
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/luckyganesh/mac-setup/master/scripts/vimScript.sh)"
+# Upgrade any already-installed formulae.
+brew upgrade
 
-echo "install vim plugins"
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/luckyganesh/mac-setup/master/scripts/vimPlugins.sh)"
+brew install git
 
-echo "APPLICATIONS";
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/luckyganesh/mac-setup/master/scripts/applications.sh)"
+git clone https://github.com/luckyganesh/mac-setup.git
 
-echo "install intellij and java11"
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/luckyganesh/mac-setup/master/scripts/atLast.sh)"
+cd mac-setup
+
+source install.sh

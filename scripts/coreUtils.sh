@@ -1,9 +1,9 @@
 #installing core utils
+
+HOMEBREW_NO_AUTO_UPDATE=1
+
 echo "installing tig"
 brew install tig
-
-echo "installing git" 
-brew install git
 
 echo "installing tree"
 brew install tree
