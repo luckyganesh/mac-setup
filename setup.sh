@@ -28,4 +28,4 @@ echo "APPLICATIONS";
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/luckyganesh/mac-setup/master/scripts/applications.sh)"
 
 echo "install intellij and java11"
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/luckyganesh/mac-setup/master/scripts/intellijAndJava.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/luckyganesh/mac-setup/master/scripts/atLast.sh)"
