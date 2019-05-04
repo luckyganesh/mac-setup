@@ -10,6 +10,8 @@ vscode_plugins=(
     coenraads.bracket-pair-colorizer
     azemoh.one-monokai
     formulahendry.auto-rename-tag
+    2gua.rainbow-brackets
+    pranaygp.vscode-css-peek
 )
 
 for i in "${vscode_plugins[@]}"; do code --install-extension "$i"; done
