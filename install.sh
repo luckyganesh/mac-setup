@@ -16,5 +16,8 @@ source ./scripts/vimPlugins.sh
 echo "APPLICATIONS";
 source ./scripts/applications.sh
 
+echo "installing vscode plugins"
+source ./scripts/vscode_plugins.sh
+
 echo "install the dmg files"
 source ./scripts/atLast.sh
