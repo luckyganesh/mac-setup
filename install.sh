@@ -1,3 +1,6 @@
+echo "installing zsh and oh-my-zsh"
+source ./scripts/zsh_install.sh
+
 echo "installing core-utils"
 source ./scripts/coreUtils.sh
 
