@@ -2,32 +2,22 @@
 
 HOMEBREW_NO_AUTO_UPDATE=1
 
-echo "installing tig"
-brew install tig
+coreUtils=(
+    tig
+    tree
+    bat
+    node
+    watch
+    ack
+    hugo
+    heroku
+    autojump
+    scala
+)
 
-echo "installing tree"
-brew install tree
+brew tap heroku/brew
 
-echo "installing bat" 
-brew install bat
-
-echo "installing node"
-brew install node
-
-echo "installing watch"; 
-brew install watch
-
-echo "installing ack"
-brew install ack
-
-echo "installing hugo"
-brew install hugo
-
-echo "installing heroku"
-brew tap heroku/brew && brew install heroku
-
-echo "installing autojump"
-brew install autojump
-
-echo "installing scala"
-brew install scala
+for i in "${coreUtils[@]}"; do 
+    echo "installing" "$i";
+    brew install "$i" 
+done

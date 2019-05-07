@@ -1,7 +1,7 @@
 # installing command_line_lanchure
 ln -s /Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code /usr/local/bin/code
 
-vscode_plugins=(
+vscodePlugins=(
     peterjausovec.vscode-docker
     tootone.org-mode
     esbenp.prettier-vscode
@@ -14,4 +14,6 @@ vscode_plugins=(
     pranaygp.vscode-css-peek
 )
 
-for i in "${vscode_plugins[@]}"; do code --install-extension "$i"; done
+for i in "${vscodePlugins[@]}"; do
+    code --install-extension "$i"; 
+done
