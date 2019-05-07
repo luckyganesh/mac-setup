@@ -1,7 +1,7 @@
 # mac-setup
 
 ### Run Command
-#### If you doesn't have homebrew and git
+#### If you don't have homebrew and git
   `sh -c "$(curl -fsSL https://raw.githubusercontent.com/luckyganesh/mac-setup/master/setup.sh)"`
 
 #### If you have homebrew and git
