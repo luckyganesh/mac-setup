@@ -2,19 +2,19 @@ echo "installing zsh and oh-my-zsh"
 source ./scripts/zsh_install.sh
 
 echo "installing core-utils"
-source ./scripts/coreUtils.sh
+source ./scripts/core_utils.sh
 
 echo "node_modules install"
 source ./scripts/node_modules.sh
 
 echo "install zsh_features"
-source ./scripts/zshFeatures.sh
+source ./scripts/zsh_features.sh
 
 echo "Vim upgrade"
-source ./scripts/vimScript.sh
+source ./scripts/vim_script.sh
 
 echo "install vim plugins"
-source ./scripts/vimPlugins.sh
+source ./scripts/vim_plugins.sh
 
 echo "APPLICATIONS";
 source ./scripts/applications.sh
@@ -23,4 +23,4 @@ echo "installing vscode plugins"
 source ./scripts/vscode_plugins.sh
 
 echo "install the dmg files"
-source ./scripts/atLast.sh
+source ./scripts/at_last.sh
