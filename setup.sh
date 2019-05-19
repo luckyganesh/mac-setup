@@ -12,7 +12,7 @@ while true; do sudo -nv true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 # Install if we don't have it
 if test ! $(which brew); then
   echo "Installing homebrew..."
-  sh -c "$(curl -fsSL https://raw.githubusercontent.com/luckyganesh/mac-setup/master/setup.sh)"
+  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
 #Make sure that your sudo config is yours.
