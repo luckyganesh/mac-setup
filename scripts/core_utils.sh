@@ -13,6 +13,7 @@ coreUtils=(
     heroku
     autojump
     scala
+    go
 )
 
 brew tap heroku/brew
