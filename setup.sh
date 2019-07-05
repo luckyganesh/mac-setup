@@ -28,3 +28,7 @@ git clone https://github.com/luckyganesh/mac-setup.git
 cd mac-setup
 
 source install.sh
+
+cd ..
+
+rm -rf mac-setup
