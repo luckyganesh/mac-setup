@@ -14,11 +14,12 @@ coreUtils=(
     autojump
     scala
     go
+    cmake
 )
 
 brew tap heroku/brew
 
 for i in "${coreUtils[@]}"; do 
     echo "installing" "$i";
-    brew install "$i" 
+    HOMEBREW_NO_AUTO_UPDATE=1 brew install "$i" 
 done
