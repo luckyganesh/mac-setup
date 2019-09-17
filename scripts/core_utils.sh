@@ -1,6 +1,6 @@
-#installing core utils
+#### CORE UTILS ####
 
-HOMEBREW_NO_AUTO_UPDATE=1
+brew tap heroku/brew
 
 coreUtils=(
     tig
@@ -16,8 +16,6 @@ coreUtils=(
     go
     cmake
 )
-
-brew tap heroku/brew
 
 for i in "${coreUtils[@]}"; do 
     echo "installing" "$i";
