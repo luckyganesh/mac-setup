@@ -1,6 +1,9 @@
 echo "installing zsh and oh-my-zsh"
 source ./scripts/zsh_install.sh
 
+echo "APPLICATIONS";
+source ./scripts/applications.sh
+
 echo "installing core-utils"
 source ./scripts/core_utils.sh
 
@@ -15,9 +18,6 @@ source ./scripts/vim_script.sh
 
 echo "install vim plugins"
 source ./scripts/vim_plugins.sh
-
-echo "APPLICATIONS";
-source ./scripts/applications.sh
 
 echo "installing vscode plugins"
 source ./scripts/vscode_plugins.sh
