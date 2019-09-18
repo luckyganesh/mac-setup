@@ -12,6 +12,7 @@ applications=(
   java11
   intellij-idea-ce
   clion
+  minikube
 )
 
 for i in "${applications[@]}"; do 

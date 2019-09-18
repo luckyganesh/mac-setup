@@ -15,6 +15,7 @@ coreUtils=(
     scala
     go
     cmake
+    kubernetes-cli
 )
 
 for i in "${coreUtils[@]}"; do 
