@@ -24,3 +24,6 @@ source ./scripts/vscode_plugins.sh
 
 echo "install the dmg files"
 source ./scripts/at_last.sh
+
+echo "show what to do"
+cat ./scripts/what_to_do_next.txt
