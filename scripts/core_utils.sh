@@ -16,6 +16,7 @@ coreUtils=(
     go
     cmake
     kubernetes-cli
+    tmux
 )
 
 for i in "${coreUtils[@]}"; do 
