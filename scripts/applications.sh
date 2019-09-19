@@ -1,3 +1,5 @@
+#! /bin/bash
+
 #### APPLICATIONS ####
 
 brew tap caskroom/cask
@@ -17,5 +19,5 @@ applications=(
 
 for i in "${applications[@]}"; do 
   echo "installing" "$i";
-  HOMEBREW_NO_AUTO_UPDATE=1 brew cask install "$i"
+  brew cask install "$i"
 done

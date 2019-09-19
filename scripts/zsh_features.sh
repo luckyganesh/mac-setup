@@ -1,5 +1,12 @@
-echo "Installing zsh-autoSuggestions";
-brew install zsh-autosuggestions
+#! /bin/bash
+#### zsh features ####
 
-echo "Installing zsh-syntax-highlighting";
-brew install zsh-syntax-highlighting
+features=(
+  zsh-autosuggestions
+  zsh-syntax-highlighting
+)
+
+for i in "${features[@]}"; do
+  echo "Installing" "$i";
+  brew install $i;
+done

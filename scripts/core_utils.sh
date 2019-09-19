@@ -1,3 +1,4 @@
+#! /bin/bash
 #### CORE UTILS ####
 
 brew tap heroku/brew
@@ -21,5 +22,5 @@ coreUtils=(
 
 for i in "${coreUtils[@]}"; do 
     echo "installing" "$i";
-    HOMEBREW_NO_AUTO_UPDATE=1 brew install "$i" 
+    brew install "$i" 
 done

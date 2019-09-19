@@ -1,3 +1,6 @@
+echo "exporting home brew no auto update"
+export HOMEBREW_NO_AUTO_UPDATE=1
+
 echo "installing zsh and oh-my-zsh"
 source ./scripts/zsh_install.sh
 
