@@ -10,4 +10,4 @@ done
 brew install zsh zsh-completions
 
 #installing oh-my-zsh
-echo $name | sh -c "$(curl -fsSL https://raw.githubusercontent.com/nrjais/oh-my-zsh/master/tools/install.sh)"
+echo $name | sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
