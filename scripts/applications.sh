@@ -15,6 +15,7 @@ applications=(
   intellij-idea-ce
   clion
   minikube
+  zoomus
 )
 
 for i in "${applications[@]}"; do 
