@@ -7,6 +7,7 @@ brew tap caskroom/versions
 
 applications=(
   google-chrome
+  virtualbox
   iterm2
   vlc
   visual-studio-code
