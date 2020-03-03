@@ -18,9 +18,13 @@ coreUtils=(
     cmake
     kubernetes-cli
     tmux
+    minikube
 )
 
 for i in "${coreUtils[@]}"; do 
     echo "installing" "$i";
     brew install "$i" 
 done
+
+## downloading nvm
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.1/install.sh | bash

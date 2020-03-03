@@ -2,8 +2,8 @@
 
 #### APPLICATIONS ####
 
-brew tap caskroom/cask
-brew tap caskroom/versions
+brew tap homebrew/cask-cask
+brew tap homebrew/cask-versions
 
 applications=(
   google-chrome
@@ -12,11 +12,10 @@ applications=(
   vlc
   visual-studio-code
   slack
-  java11
+  adoptopenjdk
   intellij-idea-ce
-  clion
-  minikube
   zoomus
+  alacritty
 )
 
 for i in "${applications[@]}"; do 
