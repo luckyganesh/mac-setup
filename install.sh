@@ -14,10 +14,7 @@ echo "node_modules install"
 source ./scripts/node_modules.sh
 
 echo "install zsh_features"
-source ./scripts/zsh_features.sh
-
-echo "Vim upgrade"
-source ./scripts/vim_script.sh
+#source ./scripts/zsh_features.sh
 
 echo "install vim plugins"
 source ./scripts/vim_plugins.sh
