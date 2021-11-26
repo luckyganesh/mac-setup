@@ -4,6 +4,7 @@
 brew tap teamookla/speedtest
 
 coreUtils=(
+    kubectx
     tig
     tree
     bat
