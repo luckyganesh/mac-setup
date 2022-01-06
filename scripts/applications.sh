@@ -9,7 +9,7 @@ applications=(
   vlc
   visual-studio-code
   intellij-idea
-  zoomus
+  zoom
   alacritty
 )
 
