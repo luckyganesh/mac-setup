@@ -24,6 +24,12 @@ coreUtils=(
     vim
     speedtest
     kcat
+    fig
+    fisher
+    direnv
+    fzf
+    nvim
+    openjdk@11
 )
 
 for i in "${coreUtils[@]}"; do 

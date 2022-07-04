@@ -3,10 +3,7 @@
 #### APPLICATIONS ####
 
 applications=(
-  google-chrome
   brave-browser
-  virtualbox
-  vlc
   visual-studio-code
   intellij-idea
   zoom
