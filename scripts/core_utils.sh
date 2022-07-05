@@ -31,6 +31,7 @@ coreUtils=(
     nvim
     openjdk@11
     colima
+    docker-credential-helper
 )
 
 for i in "${coreUtils[@]}"; do 
