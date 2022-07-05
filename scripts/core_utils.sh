@@ -30,6 +30,7 @@ coreUtils=(
     fzf
     nvim
     openjdk@11
+    colima
 )
 
 for i in "${coreUtils[@]}"; do 
