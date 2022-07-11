@@ -32,6 +32,7 @@ coreUtils=(
     openjdk@11
     colima
     docker-credential-helper
+    helm
 )
 
 for i in "${coreUtils[@]}"; do 
