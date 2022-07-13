@@ -4,6 +4,7 @@
 brew tap teamookla/speedtest
 
 coreUtils=(
+    stern
     kubectx
     tig
     tree
