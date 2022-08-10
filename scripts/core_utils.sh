@@ -4,6 +4,8 @@
 brew tap teamookla/speedtest
 
 coreUtils=(
+    leiningen
+    clojure
     stern
     kubectx
     tig
