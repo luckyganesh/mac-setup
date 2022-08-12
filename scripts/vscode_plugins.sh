@@ -2,7 +2,7 @@
 ln -s /Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code /usr/local/bin/code
 
 vscodePlugins=(
-    peterjausovec.vscode-docker
+    ms-azuretools.vscode-docker
     tootone.org-mode
     esbenp.prettier-vscode
     ms-mssql.mssql
