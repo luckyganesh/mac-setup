@@ -4,7 +4,8 @@
 brew tap teamookla/speedtest
 
 coreUtils=(
-  starship
+    terraform
+    starship
     leiningen
     clojure
     stern
