@@ -4,6 +4,7 @@
 brew tap teamookla/speedtest
 
 coreUtils=(
+    aws-cli
     terraform
     starship
     leiningen
