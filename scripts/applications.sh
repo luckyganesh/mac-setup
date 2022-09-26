@@ -9,6 +9,7 @@ applications=(
   zoom
   alacritty
   1password
+  calibre
 )
 
 for i in "${applications[@]}"; do 
