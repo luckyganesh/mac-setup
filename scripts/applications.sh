@@ -5,11 +5,15 @@
 applications=(
   brave-browser
   visual-studio-code
-  intellij-idea
+  intellij-idea-ce
   zoom
   alacritty
   1password
   calibre
+  flycut
+  virtualbox
+  numi
+  balenaetcher
 )
 
 for i in "${applications[@]}"; do 

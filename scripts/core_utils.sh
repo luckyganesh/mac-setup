@@ -21,7 +21,6 @@ coreUtils=(
     kubernetes-cli
     tmux
     minikube
-    nvm
     jq
     docker
     ccmenu
@@ -30,15 +29,21 @@ coreUtils=(
     vim
     speedtest
     kcat
-    fig
     fisher
     direnv
     fzf
     nvim
-    openjdk@11
     colima
     docker-credential-helper
     helm
+    asdf
+    fish
+    fnm
+    colima
+    k9s
+    azure-cli
+    kind
+    pet
 )
 
 for i in "${coreUtils[@]}"; do 
