@@ -3,7 +3,7 @@
 #### APPLICATIONS ####
 
 applications=(
-  brave-browser
+  brave-browser-beta
   visual-studio-code
   intellij-idea-ce
   zoom
@@ -14,6 +14,7 @@ applications=(
   virtualbox
   numi
   balenaetcher
+  rectangle
 )
 
 for i in "${applications[@]}"; do 
