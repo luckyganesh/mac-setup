@@ -32,10 +32,12 @@ source install.sh
 
 cd ~
 
+echo "/opt/homebrew/bin/fish" | sudo tee -a /etc/shells
+sudo chsh -s /opt/homebrew/bin/fish
+
 git clone https://github.com/luckyganesh/dotfiles.git
 
-cd dotfiles
-
-source setup.sh
+#cd dotfiles
+#source setup.fish
 
 cd ..

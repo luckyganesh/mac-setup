@@ -2,6 +2,8 @@
 ln -s /Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code /usr/local/bin/code
 
 vscodePlugins=(
+    platformio.platformio-ide
+    hashicorp.hcl
     ms-azuretools.vscode-docker
     tootone.org-mode
     esbenp.prettier-vscode
@@ -10,7 +12,7 @@ vscodePlugins=(
     coenraads.bracket-pair-colorizer
     azemoh.one-monokai
     formulahendry.auto-rename-tag
-    2gua.rainbow-brackets
+    tal7aouy.rainbow-bracket
     pranaygp.vscode-css-peek
 )
 
